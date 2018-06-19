@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Roboto-Light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+@font-face{
+	font-family: Roboto-Thin;
+    src: url(fonts/Roboto-Thin.ttf);
+}
+body{
+	margin: 0;
+	background-color: #eeeff7;
+}
+#titulo a{
+	text-decoration: none;
+	color: #fff;
+}
+#titulo{
+	font-family: Roboto-Light;
+
+	font-size: 50px;
+	text-align: center;
+	padding: 40px;
+	padding-bottom: 0;
+	margin:0;
+	background-color: #1c1d21;
+	color: #fff;
+}
+#subt{
+	font-family: Roboto-Thin;
+	font-size: 13px;
+	text-align: center;
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	background-color: #1c1d21;
+	color: #fff;
+}
+nav{
+	font-family: Roboto-Light;
+}
+ul.lista{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.lista li{
+	display:inline;
+	margin:-2px;
+}
+.lista{
+	background-color: #445878;
+}
+.lista a{
+	display: inline-block;
+	text-decoration: none;
+	padding:10px;
+	margin: 0px;
+	color: #fff;
+	transition: 1s background-color;
+}
+.lista a.on {
+  background-color: #92cdcf;
+}
+.lista a:hover {
+	background-color: #31353d;
+}
+
+ul.trabalhos{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 30px;
+}
+.trabalhos li{
+	display:inline;
+	margin:-2px;
+}
+.trabalhos a{
+	display: inline-block;
+	text-decoration: none;
+	padding:6px;
+	margin: 0px;
+	color: #1c1d21;
+}
+.trabalhos a.on {
+ 	background-color: #1c1d21;
+ 	color: #fff
+}
+.trabalhos a:hover {
+	background-color: #1c1d21;
+	color: #fff;
+}
+div.linha{
+	height: 3px;
+	background-color: #1c1d21
+}
+
+section.gallery{
+	margin: 19%;
+	margin-top: 3%
+}
+div.gallery {
+    margin: 5px;
+	float: left;
+    width: 300px;
+}
+
+div.gallery:hover {
+}
+
+div.gallery img {
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+	section.gallery{
+		margin: 22%;
+		margin-top: 3%
+	}
+}

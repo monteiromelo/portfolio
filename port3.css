@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Roboto-Light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+@font-face{
+	font-family: Roboto-Thin;
+    src: url(fonts/Roboto-Thin.ttf);
+}
+body{
+	margin: 0;
+	background-color: #eeeff7;
+}
+#titulo a{
+	text-decoration: none;
+	color: #fff;
+}
+#titulo{
+	font-family: Roboto-Light;
+	font-size: 50px;
+	text-align: center;
+	padding: 40px;
+	padding-bottom: 0;
+	margin:0;
+	background-color: #1c1d21;
+	color: #fff;
+}
+#subt{
+	font-family: Roboto-Thin;
+	font-size: 13px;
+	text-align: center;
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	background-color: #1c1d21;
+	color: #fff;
+}
+nav{
+	font-family: Roboto-Light;
+}
+nav ul{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+nav li{
+	display:inline;
+	margin:-2px;
+}
+.lista{
+	background-color: #445878;
+}
+.lista a{
+	display: inline-block;
+	text-decoration: none;
+	padding:10px;
+	margin: 0px;
+	color: #fff;
+	transition: 1s background-color;
+}
+.lista a.on {
+  background-color: #92cdcf;
+}
+.lista a:hover {
+	background-color: #31353d;
+}
+
+.form-style-1 {
+	float:center;
+    margin:10% auto;
+    margin-bottom: 0;
+    max-width: 50%;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 0 0 10px 0;
+}
+.form-style-1 input[type=text], 
+textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 10px;
+    margin:0px;
+    outline: none;  
+}
+.form-style-1 .field-divided{
+    width: 49.7%;
+}
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 130px;
+}
+.form-style-1 input[type=submit]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
+.icon{
+	width:60px;
+	height:60px;
+	background-image: url("icon/insta.png");
+	background-size: 100%;
+	position: absolute;
+	left: 48%;
+}
+@media screen and (max-width: 900px) {
+	.form-style-1 {
+	    margin:10% auto;
+	    max-width: 100%;
+	}
+	.form-style-1 .field-divided{
+	    width: 100%;
+	}
+	.icon{
+		position: absolute;
+		left: 44%;
+	}
+}
