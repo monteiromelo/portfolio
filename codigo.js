@@ -16,7 +16,7 @@ $(document).ready(function(){
 
   $("#instagram").mouseenter(function(){
     $("#instagram").animate({
-      opacity: 0.6
+      opacity: 0.5
     });
   });
 
